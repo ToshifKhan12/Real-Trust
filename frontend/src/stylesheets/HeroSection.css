@@ -1,0 +1,44 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background: url("../Assets/hero-image.svg") no-repeat center center/cover;
+    padding: 0 50px;
+  }
+  
+  .hero-content {
+    color: #fff;
+    max-width: 600px;
+  }
+
+  h1{
+    font-weight: 700;
+    line-height: 1;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+  }
+  
+  .consultation-box {
+    width: 400px;
+    padding: 20px;
+    background-color: #030b66;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 2px;
+    margin: 20px;
+    height: 400px;
+  }
+  
